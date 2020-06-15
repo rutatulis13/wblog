@@ -5,13 +5,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 #logo {
 	color:black;
 }
 .navbar {
 	display: flex;
 	margin: 35px 115px 70px 115px;
+	justify-content: space-between;
 }
 ul {
 	list-style:none;
@@ -24,7 +24,6 @@ li {
 	padding:0 24px;
 	font-size: 16px;
 }
-
 .navbar-button {
 	color:grey;
 }
@@ -60,22 +59,18 @@ li {
 #bars {
 	display: none
 }
-
 #media li {
 	padding: 0 7px;
 }
-
 .first-paragraph {
 	display: flex;
 	margin: 0 115px;
-
 }
 .paragraph {
 	padding-right: 150px;
 	font-size: 16px;
 	margin-top: 60px;
 }
-
 .responsive, .longdot, .block, .button, .box1, .box2, .box3 {
 	border-radius: 15px;
 }
